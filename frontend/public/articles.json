@@ -1,0 +1,35 @@
+{
+  "articles": [
+    {
+      "id": "e9ee9eec9922685574a77e29b3481e758defc7d6224d81a8083d6ad49084b9fe",
+      "source": "Ben's Bites",
+      "title": "ChatGPT's Nano Banana",
+      "url": "https://www.bensbites.com/p/chatgpts-nano-banana",
+      "summary": "testing popular design tools",
+      "published_date": "2026-04-23T13:10:10+00:00",
+      "is_saved": false
+    },
+    {
+      "id": "ff09822f97325bc30d454d69c9b94926bb6e3f0d0e3c4bd70814a8316ee24447",
+      "source": "Ben's Bites",
+      "title": "That's my designer - Claude",
+      "url": "https://www.bensbites.com/p/thats-my-designer-claude",
+      "summary": "and it comes with a new model, Opus 4.7",
+      "published_date": "2026-04-21T13:31:45+00:00",
+      "is_saved": false
+    },
+    {
+      "id": "reddit-mock-id-12345",
+      "source": "Reddit",
+      "title": "[D] A Comprehensive Analysis of KV Cache Quantization in Long-Context LLMs",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/abcde/a_comprehensive_analysis_of_kv_cache/",
+      "summary": "We conducted extensive benchmarking across 8x7B architectures and discovered non-trivial degradation bounds at 4-bit quantization levels when sequences exceed 64k tokens...",
+      "published_date": "2026-04-25T00:00:00+00:00",
+      "is_saved": false
+    }
+  ],
+  "metadata": {
+    "last_scraped": "2026-04-25T07:17:20.271818+00:00",
+    "total_articles_found": 3
+  }
+}

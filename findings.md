@@ -1,0 +1,13 @@
+# Findings
+- **Discovery Complete**: 
+  - The project combines a gorgeous frontend dashboard with a backend data collection mechanism.
+  - Immediate constraint: Focus initially on building a scraper for Ben's Bites and AI Rundown to get the last ~24 hours of data. Reddit is a nice-to-have secondary source.
+  - The frontend state must support saving articles, persisting across refreshes.
+  - Data storage is local for now, but will transition to Supabase later.
+  - External constraints: Ben's Bites URL is at `https://bensbites.com/archive` and The AI Rundown URL is at `https://www.therundown.ai/`. Both are likely hosted on beehiiv or a similar platform. Custom scraping logic will be needed to parse their HTML content.
+- **Design Guidelines Received**:
+  - Primary color: `#BFF549`
+  - Background: `#0D0D0D`
+  - Font: `Aspekta`
+  - Edges: `0px` border radius
+  - Layout Inspiration: Sidebar with grid of content cards (from `design.png`).
