@@ -24,11 +24,11 @@ const Hero1 = () => {
       </div>
       {/* Header */}
       <header className="flex justify-between items-center p-8 relative z-10 w-full max-w-7xl mx-auto">
-        <div className="flex items-center gap-4 bg-[#0b4d2e] px-6 py-3 rounded-full shadow-lg border border-emerald-700/50 transition-all hover:scale-105">
+        <div className="flex items-center gap-4 bg-[#006A4E] px-6 py-3 rounded-full shadow-lg border border-emerald-700/50 transition-all hover:scale-105">
           <Hexagon className="w-6 h-6 text-emerald-300" />
           <div className="font-bold text-lg text-emerald-50 tracking-wide">HextaAI</div>
         </div>
-        <button className="bg-[#0b4d2e] text-emerald-50 hover:bg-[#083b23] border border-emerald-700/50 rounded-full px-8 py-3 text-sm cursor-pointer font-bold shadow-lg transition-all hover:scale-105">
+        <button className="bg-gradient-to-br from-[#006A4E] to-[#009879] text-emerald-50 hover:opacity-90 border border-[#009879]/50 rounded-full px-8 py-3 text-sm cursor-pointer font-bold shadow-lg transition-all hover:scale-105">
           Get Started
         </button>
       </header>
@@ -37,7 +37,7 @@ const Hero1 = () => {
       <main className="flex-1 flex flex-col items-center justify-center px-4 text-center relative z-10 mt-8">
         <div className="max-w-4xl mx-auto space-y-12">
           <div className="flex-1 flex justify-center">
-            <div className="bg-[#0b4d2e] rounded-full px-6 py-3 flex items-center gap-3 w-fit shadow-lg border border-emerald-700/50 transition-all hover:scale-105">
+            <div className="bg-[#006A4E] rounded-full px-6 py-3 flex items-center gap-3 w-fit shadow-lg border border-emerald-700/50 transition-all hover:scale-105">
               <span className="text-sm flex items-center gap-2 text-emerald-50 font-medium">
                 <span className="bg-[#062c1a] p-1.5 rounded-full shadow-inner">✨</span>
                 Introduction to Magic Components
