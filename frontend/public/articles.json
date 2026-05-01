@@ -5,7 +5,7 @@
       "source": "Ben's Bites",
       "title": "ChatGPT's Nano Banana",
       "url": "https://www.bensbites.com/p/chatgpts-nano-banana",
-      "summary": "testing popular design tools",
+      "summary": "Testing popular design tools and exploring how generative UI shapes the future of product development.",
       "published_date": "2026-04-23T13:10:10+00:00",
       "is_saved": false
     },
@@ -14,8 +14,26 @@
       "source": "Ben's Bites",
       "title": "That's my designer - Claude",
       "url": "https://www.bensbites.com/p/thats-my-designer-claude",
-      "summary": "and it comes with a new model, Opus 4.7",
+      "summary": "And it comes with a new model, Opus 4.7. The capabilities for UI generation are absolutely mind-blowing this week.",
       "published_date": "2026-04-21T13:31:45+00:00",
+      "is_saved": false
+    },
+    {
+      "id": "ben-bites-mock-3",
+      "source": "Ben's Bites",
+      "title": "Scaling Data Pipelines with AI",
+      "url": "https://www.bensbites.com/p/scaling-data",
+      "summary": "A deep dive into how modern orchestration platforms are utilizing LLMs to automatically heal broken data pipelines.",
+      "published_date": "2026-04-28T09:00:00+00:00",
+      "is_saved": false
+    },
+    {
+      "id": "ben-bites-mock-4",
+      "source": "Ben's Bites",
+      "title": "The Rise of Autonomous Agents",
+      "url": "https://www.bensbites.com/p/autonomous-agents",
+      "summary": "Why the next paradigm shift isn't just chatting, but delegating full workflows to swarms of specialized agents.",
+      "published_date": "2026-04-30T10:15:00+00:00",
       "is_saved": false
     },
     {
@@ -26,10 +44,73 @@
       "summary": "We conducted extensive benchmarking across 8x7B architectures and discovered non-trivial degradation bounds at 4-bit quantization levels when sequences exceed 64k tokens...",
       "published_date": "2026-04-25T00:00:00+00:00",
       "is_saved": false
+    },
+    {
+      "id": "reddit-mock-id-67890",
+      "source": "Reddit",
+      "title": "[R] New Architecture outperforms Transformers on temporal reasoning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/xyz/new_arch/",
+      "summary": "Researchers just dropped a paper showing a state-space model variant that perfectly solves the temporal alignment benchmark without attention heads.",
+      "published_date": "2026-04-29T14:20:00+00:00",
+      "is_saved": false
+    },
+    {
+      "id": "reddit-mock-id-11111",
+      "source": "Reddit",
+      "title": "[News] OpenAI silently updates GPT-4.5 weights",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/lmn/openai_update/",
+      "summary": "Users are reporting drastically different routing behavior. Analysis of the API outputs suggests a silent update pushed over the weekend.",
+      "published_date": "2026-04-30T08:00:00+00:00",
+      "is_saved": false
+    },
+    {
+      "id": "reddit-mock-id-22222",
+      "source": "Reddit",
+      "title": "[P] I built an open-source framework for multi-agent RL",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/pqr/opensource_rl/",
+      "summary": "Hey everyone, I'm releasing my framework that scales PPO to multi-agent environments using Ray. It's 3x faster than RLlib.",
+      "published_date": "2026-05-01T11:45:00+00:00",
+      "is_saved": false
+    },
+    {
+      "id": "rundown-mock-1",
+      "source": "The AI Rundown",
+      "title": "Google announces DeepMind's Antigravity",
+      "url": "https://example.com/ai-rundown/antigravity",
+      "summary": "A groundbreaking new agentic coding framework that pairs with users to autonomously build full-stack applications in seconds.",
+      "published_date": "2026-05-01T09:00:00+00:00",
+      "is_saved": false
+    },
+    {
+      "id": "rundown-mock-2",
+      "source": "The AI Rundown",
+      "title": "Apple's On-Device Intelligence Leap",
+      "url": "https://example.com/ai-rundown/apple-ai",
+      "summary": "The new iPhone 17 Pro features a dedicated neural core capable of running 14B parameter models entirely locally, preserving user privacy.",
+      "published_date": "2026-04-28T16:30:00+00:00",
+      "is_saved": false
+    },
+    {
+      "id": "rundown-mock-3",
+      "source": "The AI Rundown",
+      "title": "Meta open-sources Llama 4",
+      "url": "https://example.com/ai-rundown/llama-4",
+      "summary": "Zuckerberg continues the open-source crusade by releasing a 400B parameter behemoth that rivals proprietary frontiers.",
+      "published_date": "2026-04-26T12:00:00+00:00",
+      "is_saved": false
+    },
+    {
+      "id": "rundown-mock-4",
+      "source": "The AI Rundown",
+      "title": "The GPU Shortage is Finally Over",
+      "url": "https://example.com/ai-rundown/gpu-shortage",
+      "summary": "TSMC's new 2nm fabs have officially come online, flooding the market with silicon and dropping compute costs by 40%.",
+      "published_date": "2026-04-24T08:15:00+00:00",
+      "is_saved": false
     }
   ],
   "metadata": {
-    "last_scraped": "2026-04-25T07:17:20.271818+00:00",
-    "total_articles_found": 3
+    "last_scraped": "2026-05-01T10:00:00.000000+00:00",
+    "total_articles_found": 12
   }
 }

@@ -5,93 +5,61 @@ import { Paperclip, Sparkles, Hexagon } from "lucide-react";
 
 const Hero1 = () => {
   return (
-    <div className="min-h-screen bg-[#0c0414] text-white flex flex-col relative overflow-x-hidden">
-      {/* Gradient */}
-      <div className="flex gap-[10rem] rotate-[-20deg] absolute top-[-40rem] right-[-30rem] z-[0] blur-[4rem] skew-[-40deg]  opacity-50">
-        <div className="w-[10rem] h-[20rem]  bg-linear-90 from-white to-blue-300"></div>
-        <div className="w-[10rem] h-[20rem]  bg-linear-90 from-white to-blue-300"></div>
-        <div className="w-[10rem] h-[20rem]  bg-linear-90 from-white to-blue-300"></div>
-      </div>
-      <div className="flex gap-[10rem] rotate-[-20deg] absolute top-[-50rem] right-[-50rem] z-[0] blur-[4rem] skew-[-40deg]  opacity-50">
-        <div className="w-[10rem] h-[20rem]  bg-linear-90 from-white to-blue-300"></div>
-        <div className="w-[10rem] h-[20rem]  bg-linear-90 from-white to-blue-300"></div>
-        <div className="w-[10rem] h-[20rem]  bg-linear-90 from-white to-blue-300"></div>
-      </div>
-      <div className="flex gap-[10rem] rotate-[-20deg] absolute top-[-60rem] right-[-60rem] z-[0] blur-[4rem] skew-[-40deg]  opacity-50">
-        <div className="w-[10rem] h-[30rem]  bg-linear-90 from-white to-blue-300"></div>
-        <div className="w-[10rem] h-[30rem]  bg-linear-90 from-white to-blue-300"></div>
-        <div className="w-[10rem] h-[30rem]  bg-linear-90 from-white to-blue-300"></div>
-      </div>
-      {/* Header */}
-      <header className="flex justify-between items-center p-8 relative z-10 w-full max-w-7xl mx-auto">
-        <div className="flex items-center gap-4 bg-[#006A4E] px-6 py-3 rounded-full shadow-lg border border-emerald-700/50 transition-all hover:scale-105">
-          <Hexagon className="w-6 h-6 text-emerald-300" />
-          <div className="font-bold text-lg text-emerald-50 tracking-wide">HextaAI</div>
-        </div>
-        <button className="bg-gradient-to-br from-[#006A4E] to-[#009879] text-emerald-50 hover:opacity-90 border border-[#009879]/50 rounded-full px-8 py-3 text-sm cursor-pointer font-bold shadow-lg transition-all hover:scale-105">
-          Get Started
-        </button>
-      </header>
-
+    <section className="relative z-10 py-20 flex flex-col items-center">
       {/* Main Content */}
-      <main className="flex-1 flex flex-col items-center justify-center px-4 text-center relative z-10 mt-8">
-        <div className="max-w-4xl mx-auto space-y-12">
-          <div className="flex-1 flex justify-center">
-            <div className="bg-[#006A4E] rounded-full px-6 py-3 flex items-center gap-3 w-fit shadow-lg border border-emerald-700/50 transition-all hover:scale-105">
-              <span className="text-sm flex items-center gap-2 text-emerald-50 font-medium">
-                <span className="bg-[#062c1a] p-1.5 rounded-full shadow-inner">✨</span>
-                Introduction to Magic Components
-              </span>
-            </div>
-          </div>
-          {/* Headline */}
-          <h1 className="text-5xl font-bold leading-tight">
-            Build Stunning websites effortlessly
-          </h1>
-
-          {/* Subtitle */}
-          <p className="text-md">
-            HextaAI can create amazing websites with few lines of prompt.
-          </p>
-
-          {/* Search bar */}
-          <div className="relative max-w-2xl mx-auto w-full">
-            <div className="bg-[#1c1528] rounded-full p-3 flex items-center">
-              <button className="p-2 rounded-full hover:bg-[#2a1f3d] transition-all">
-                <Paperclip className="w-5 h-5 text-gray-400" />
-              </button>
-              <button className="p-2 rounded-full hover:bg-[#2a1f3d] transition-all">
-                <Sparkles className="w-5 h-5 text-purple-400" />
-              </button>
-              <input
-                type="text"
-                placeholder="How HextaAI can help you today?"
-                className="bg-transparent flex-1 outline-none text-gray-300 pl-4"
-              />
-            </div>
-          </div>
-
-          {/* Suggestion pills */}
-          <div className="flex flex-wrap justify-center gap-2 mt-12 max-w-2xl mx-auto">
-            <button className="bg-[#1c1528] hover:bg-[#2a1f3d] rounded-full px-4 py-2 text-sm">
-              Launch a blog with Astro
-            </button>
-            <button className="bg-[#1c1528] hover:bg-[#2a1f3d] rounded-full px-4 py-2 text-sm">
-              Develop an app using NativeScript
-            </button>
-            <button className="bg-[#1c1528] hover:bg-[#2a1f3d] rounded-full px-4 py-2 text-sm">
-              Build documentation with Vitepress
-            </button>
-            <button className="bg-[#1c1528] hover:bg-[#2a1f3d] rounded-full px-4 py-2 text-sm">
-              Generate UI with shadcn
-            </button>
-            <button className="bg-[#1c1528] hover:bg-[#2a1f3d] rounded-full px-4 py-2 text-sm">
-              Generate UI with HextaUI
-            </button>
+      <div className="max-w-4xl mx-auto space-y-12 px-4 text-center">
+        <div className="flex justify-center">
+          <div className="bg-[#00ffa31a] rounded-full px-6 py-2 flex items-center gap-3 w-fit shadow-lg border border-[#00ffa333] backdrop-blur-md transition-all hover:scale-105">
+            <span className="text-xs flex items-center gap-2 text-[#00ffa3] font-bold tracking-widest uppercase">
+              <Sparkles size={14} />
+              AI-Powered Intelligence
+            </span>
           </div>
         </div>
-      </main>
-    </div>
+        
+        {/* Headline */}
+        <h1 className="text-6xl md:text-7xl font-extrabold leading-tight tracking-tighter">
+          Curated Intelligence <br />
+          <span className="bg-gradient-to-r from-[#00ffa3] to-[#7000ff] bg-clip-text text-transparent">
+            Effortlessly Delivered
+          </span>
+        </h1>
+
+        {/* Subtitle */}
+        <p className="text-xl text-zinc-400 max-w-2xl mx-auto">
+          Experience the most advanced news aggregator with elite curation and secure user-specific intelligence streams.
+        </p>
+
+        {/* Search bar */}
+        <div className="relative max-w-2xl mx-auto w-full group">
+          <div className="absolute -inset-1 bg-gradient-to-r from-[#00ffa3] to-[#7000ff] rounded-full blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
+          <div className="relative bg-[#1c1528] rounded-full p-2 flex items-center border border-white/5">
+            <div className="flex gap-1 pl-2">
+              <button className="p-2 rounded-full hover:bg-white/5 transition-all text-zinc-400 hover:text-white">
+                <Paperclip className="w-5 h-5" />
+              </button>
+              <button className="p-2 rounded-full hover:bg-white/5 transition-all text-[#00ffa3]">
+                <Sparkles className="w-5 h-5" />
+              </button>
+            </div>
+            <input
+              type="text"
+              placeholder="Search intelligence streams..."
+              className="bg-transparent flex-1 outline-none text-white pl-4 placeholder:text-zinc-600"
+            />
+          </div>
+        </div>
+
+        {/* Suggestion pills */}
+        <div className="flex flex-wrap justify-center gap-3 mt-12 max-w-3xl mx-auto">
+          {["Neural Networks", "LLM Architectures", "Agentic Workflows", "Vector Databases"].map((tag) => (
+            <button key={tag} className="bg-white/5 hover:bg-white/10 border border-white/10 rounded-full px-5 py-2 text-sm text-zinc-300 transition-all hover:border-[#00ffa333]">
+              {tag}
+            </button>
+          ))}
+        </div>
+      </div>
+    </section>
   );
 };
 
