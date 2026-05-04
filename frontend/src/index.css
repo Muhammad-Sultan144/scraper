@@ -78,8 +78,13 @@ body {
 }
 
 @keyframes move {
-  from { transform: translate(0, 0) scale(1) rotate(0deg); }
-  to { transform: translate(120px, 120px) scale(1.15) rotate(15deg); }
+  from {
+    transform: translate(0, 0) scale(1) rotate(0deg);
+  }
+
+  to {
+    transform: translate(120px, 120px) scale(1.15) rotate(15deg);
+  }
 }
 
 /* Glassmorphism Panels */
@@ -118,8 +123,10 @@ body {
   font-size: 2rem;
   margin-bottom: 8px;
   background: linear-gradient(to right, var(--primary), #fff);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 .auth-header p {
@@ -191,7 +198,8 @@ body {
   font-size: 0.8rem;
 }
 
-.auth-divider::before, .auth-divider::after {
+.auth-divider::before,
+.auth-divider::after {
   content: "";
   flex: 1;
   height: 1px;
@@ -247,13 +255,17 @@ body {
   margin-bottom: 8px;
   background: linear-gradient(to right, #fff, var(--primary), #fff);
   background-size: 200% auto;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: transparent;
   animation: shine 5s linear infinite;
 }
 
 @keyframes shine {
-  to { background-position: 200% center; }
+  to {
+    background-position: 200% center;
+  }
 }
 
 .nav-tabs {
@@ -427,7 +439,8 @@ body {
   border-color: rgba(255, 0, 0, 0.3);
 }
 
-.loading-state, .empty-state {
+.loading-state,
+.empty-state {
   text-align: center;
   padding: 100px 0;
   color: var(--text-dim);
