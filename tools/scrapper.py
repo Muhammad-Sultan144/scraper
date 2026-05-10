@@ -23,7 +23,7 @@ def parse_date(date_struct):
     except:
         return datetime.now(timezone.utc)
 
-def scrape():
+def scrappe():
     if not os.path.exists(TMP_DIR):
         os.makedirs(TMP_DIR)
 
@@ -72,4 +72,4 @@ def scrape():
     print(f"Scrape complete. Found {len(all_articles)} articles. Data saved to {OUTPUT_FILE}")
 
 if __name__ == "__main__":
-    scrape()
+    scrappe()

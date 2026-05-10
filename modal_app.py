@@ -7,14 +7,14 @@ app = modal.App("news-scraper")
 # Set up the Modal image with required dependencies
 image = modal.Image.debian_slim().pip_install("feedparser")
 
-# Add the current directory to sys.path so we can import local modules
+# Add the tools directory to sys.path so we can import scrapper
 import sys
 import os
-sys.path.append(os.path.dirname(__file__))
+sys.path.append(os.path.join(os.path.dirname(__file__), "tools"))
 
 # Import the scrape function
-from tools import scraper
-scrape_func = scraper.scrape
+from scrapper import scrappe
+scrape_func = scrappe
 
 # Schedule the function to run daily at midnight UTC
 @app.function(image=image, schedule=modal.Cron("0 0 * * *"))
