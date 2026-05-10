@@ -4,22 +4,20 @@ import os
 # Define the Modal app
 app = modal.App("news-scraper")
 
-# Path to the scraper script (relative to this file)
-SCRAPER_PATH = os.path.join(os.path.dirname(__file__), "tools", "scraper.py")
+# Set up the Modal image with required dependencies
+image = modal.Image.debian_slim().pip_install("feedparser")
 
-# Import the scrape function dynamically
-def _load_scrape_function():
-    import importlib.util, sys
-    spec = importlib.util.spec_from_file_location("scraper", SCRAPER_PATH)
-    scraper = importlib.util.module_from_spec(spec)
-    sys.modules["scraper"] = scraper
-    spec.loader.exec_module(scraper)
-    return scraper.scrape
+# Add the current directory to sys.path so we can import local modules
+import sys
+import os
+sys.path.append(os.path.dirname(__file__))
 
-scrape_func = _load_scrape_function()
+# Import the scrape function
+from tools import scraper
+scrape_func = scraper.scrape
 
 # Schedule the function to run daily at midnight UTC
-@app.function(schedule=modal.Cron("0 0 * * *"))
+@app.function(image=image, schedule=modal.Cron("0 0 * * *"))
 def run_scraper():
     """Entry point executed by Modal every 24 hours."""
     # Call the local scrape function
@@ -27,4 +25,4 @@ def run_scraper():
 
 if __name__ == "__main__":
     # For local testing you can invoke directly
-    run_scraper()
+    run_scraper.local()

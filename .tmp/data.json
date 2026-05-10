@@ -1,26 +1,116 @@
 {
   "articles": [
     {
-      "id": "e9ee9eec9922685574a77e29b3481e758defc7d6224d81a8083d6ad49084b9fe",
+      "id": "ca9b1073daf61e9fa77ffc2f06265ff75009d79d8c48a7fd7616a832eabfc061",
       "source": "Ben's Bites",
-      "title": "ChatGPT's Nano Banana",
-      "url": "https://www.bensbites.com/p/chatgpts-nano-banana",
-      "summary": "testing popular design tools",
-      "published_date": "2026-04-23T13:10:10+00:00",
+      "title": "Ben's Builds #3 - an email app",
+      "url": "https://www.bensbites.com/p/bens-builds-3-an-email-app",
+      "summary": "They have some challenges &#128517;",
+      "published_date": "2026-05-09T09:25:10+00:00",
       "is_saved": false
     },
     {
-      "id": "ff09822f97325bc30d454d69c9b94926bb6e3f0d0e3c4bd70814a8316ee24447",
+      "id": "19e3bd2c62258696a601296336791e42217a90b29d41756c30fd89d290b269e4",
       "source": "Ben's Bites",
-      "title": "That's my designer - Claude",
-      "url": "https://www.bensbites.com/p/thats-my-designer-claude",
-      "summary": "and it comes with a new model, Opus 4.7",
-      "published_date": "2026-04-21T13:31:45+00:00",
+      "title": "Elon doubled limits",
+      "url": "https://www.bensbites.com/p/elon-doubled-limits",
+      "summary": "Free ChatGPT got instantly better.",
+      "published_date": "2026-05-07T13:03:18+00:00",
+      "is_saved": false
+    },
+    {
+      "id": "d75d19543950be1c0b6dc7bc27192594ec588ebca2e68987e737d4f2f19dcedc",
+      "source": "Ben's Bites",
+      "title": "Codex is gaining steam",
+      "url": "https://www.bensbites.com/p/codex-is-gaining-steam",
+      "summary": "but I wish it had this",
+      "published_date": "2026-05-05T13:02:54+00:00",
+      "is_saved": false
+    },
+    {
+      "id": "82f6fd1436ecd1d7925248c2777ad72760e187629db108e83a3910e7c2936b46",
+      "source": "Reddit",
+      "title": "My experience interviewing with Huawei Vancouver for an ML research role: strong mismatch between how it was pitched and how it was evaluated [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t80awj/my_experience_interviewing_with_huawei_vancouver/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I want to share an interview experience anonymously in case it helps others on the job market.</p> <p>I was approached about a Vancouver ML role that was presented to me as research-oriented. The recruiter told me th...",
+      "published_date": "2026-05-09T09:38:35+00:00",
+      "is_saved": false
+    },
+    {
+      "id": "9c6b9c61fddbebb1318a720bc980ffea37a371536d52c46d5148721580171bc8",
+      "source": "Reddit",
+      "title": "DeepSeek V4 paper full version is out, FP4 QAT details and stability tricks [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t7yrvr/deepseek_v4_paper_full_version_is_out_fp4_qat/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>DeepSeek dropped the full V4 paper this week. preview from april was 58 pages, this version adds a lot of technical depth.</p> <p>What stood out for me.</p> <p>FP4 quantization aware training. theyre running FP4 QAT ...",
+      "published_date": "2026-05-09T08:10:03+00:00",
+      "is_saved": false
+    },
+    {
+      "id": "e0f9bdb444f5728b4a9bb5e67ce3e660fb33197a936166297551cddfe754d601",
+      "source": "Reddit",
+      "title": "What is an average publication outcome for an ML PhD? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t8bnmp/what_is_an_average_publication_outcome_for_an_ml/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I know publication count is not everything, and quality, contribution, advisor/lab culture, subfield, and luck all matter a lot. But to make the comparison easier, I\u2019m curious about the publication-count side specifi...",
+      "published_date": "2026-05-09T17:44:32+00:00",
+      "is_saved": false
+    },
+    {
+      "id": "b5ea63213027012f2f5fedbdc443e2aa19ed473af32dae1cefc5c0536341f46f",
+      "source": "Reddit",
+      "title": "Neurips : Pushing anonymous repo after rebuttal [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t7zwrx/neurips_pushing_anonymous_repo_after_rebuttal_d/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I have a question about NeurIPS submission/review rules and anonymous code repositories.</p> <p>Suppose a paper was submitted before the deadline, and the anonymous code repo is linked as suppleme...",
+      "published_date": "2026-05-09T09:15:29+00:00",
+      "is_saved": false
+    },
+    {
+      "id": "1737de10ad423c45030635357698f66148117b9c1e9bc7c9c48dbd037f182987",
+      "source": "Reddit",
+      "title": "MIDL 2025 proceedings missing? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t82vrd/midl_2025_proceedings_missing_d/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Does anyone know where I can find MIDL 2025 proceedings on PMLR? I see it for 2024 and even 2026 but 2025 is completely missing from the internet?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://ww...",
+      "published_date": "2026-05-09T11:52:13+00:00",
+      "is_saved": false
+    },
+    {
+      "id": "a7fbff6c8d0264726148cf4975f89f6809c598a3ccb173afee735ac6384a71b0",
+      "source": "Reddit",
+      "title": "EEML 2026 summer school [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t87t6r/eeml_2026_summer_school_d/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Has anyone accepted to EEML 2026 summer school?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/No_Cardiologist7609\"> /u/No_Cardiologist7609 </a> <br /> <span><a href=\"https://w...",
+      "published_date": "2026-05-09T15:19:23+00:00",
+      "is_saved": false
+    },
+    {
+      "id": "542473f42bcfd2e36fb7f8b0f81c90d1d338e17d4006f429fafb7605f2471d3b",
+      "source": "Reddit",
+      "title": "is workshop abstract deadline hard or soft deadline [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t8715r/is_workshop_abstract_deadline_hard_or_soft/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Hi, this ICML workshop: <a href=\"https://trustworthy-ai-for-good.github.io/\">https://trustworthy-ai-for-good.github.io/</a> says abstract deadline was yesterday, however on openreview it only lists the full paper dea...",
+      "published_date": "2026-05-09T14:49:30+00:00",
+      "is_saved": false
+    },
+    {
+      "id": "61419e55e8b1ab93598075d598a980967b89c0cef88c26672e5567ddfd7bdbd4",
+      "source": "Reddit",
+      "title": "Anyone Trying to submit for ICML FM4LS workshop but noticed link closed Early? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t8nks7/anyone_trying_to_submit_for_icml_fm4ls_workshop/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I was trying to submit to ICML FM4LS workshop but noticed that <a href=\"https://openreview.net/group?id=ICML.cc/2026/Workshop/FM4LS#tab-recent-activity\">openreview</a> is not accepting submissions any more? although ...",
+      "published_date": "2026-05-09T21:26:04+00:00",
+      "is_saved": false
+    },
+    {
+      "id": "25eed05e0f2efb46cc1d5b17d152d3b3c264e038b325fe399ec450e8dd2e1308",
+      "source": "Reddit",
+      "title": "LLM rankings are not a ladder: experimental results from a transitive benchmark graph [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t8f61o/llm_rankings_are_not_a_ladder_experimental/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1t8f61o/llm_rankings_are_not_a_ladder_experimental/\"> <img alt=\"LLM rankings are not a ladder: experimental results from a transitive benchmark graph [D]\" src=\"https://previe...",
+      "published_date": "2026-05-09T19:16:19+00:00",
       "is_saved": false
     }
   ],
   "metadata": {
-    "last_scraped": "2026-04-25T07:17:20.271818+00:00",
-    "total_articles_found": 2
+    "last_scraped": "2026-05-10T06:28:15.799574+00:00",
+    "total_articles_found": 12
   }
 }
