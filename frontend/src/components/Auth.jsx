@@ -1,8 +1,21 @@
 import { useState } from 'react'
 import { supabase } from '../supabaseClient'
-import { Mail, Lock, User, ArrowRight, Hexagon } from 'lucide-react'
+import Mail from 'lucide-react/dist/esm/icons/mail'
+import Lock from 'lucide-react/dist/esm/icons/lock'
+import User from 'lucide-react/dist/esm/icons/user'
+import ArrowRight from 'lucide-react/dist/esm/icons/arrow-right'
+import Hexagon from 'lucide-react/dist/esm/icons/hexagon'
 
-export default function Auth({ onAuthSuccess }) {
+
+export default function Auth({ onAuthSuccess, onBypass }) {
+  const handleBypass = () => {
+    if (onBypass) {
+      onBypass({
+        id: 'coffee-enthusiast-id',
+        email: 'anc@glaido.com'
+      })
+    }
+  }
   const [loading, setLoading] = useState(false)
   const [isSignUp, setIsSignUp] = useState(false)
   const [email, setEmail] = useState('')
@@ -88,6 +101,10 @@ export default function Auth({ onAuthSuccess }) {
         <button onClick={handleGitHubLogin} className="auth-social-btn github">
           <Hexagon className="btn-icon" />
           Continue with GitHub
+        </button>
+
+        <button onClick={handleBypass} className="auth-demo-btn">
+          Brew Demo Session
         </button>
 
         <div className="auth-footer">

@@ -3,16 +3,22 @@ import { supabase } from './supabaseClient'
 import './index.css'
 import { Hero1 } from './components/ui/hero-1'
 import Auth from './components/Auth'
-import { Heart, LogOut, User as UserIcon } from 'lucide-react'
+import Heart from 'lucide-react/dist/esm/icons/heart'
+import LogOut from 'lucide-react/dist/esm/icons/log-out'
+import UserIcon from 'lucide-react/dist/esm/icons/user'
+import GlaidoProfilePage from './components/ProfilePage'
+
+
 
 function App() {
   const [session, setSession] = useState(null)
   const [articles, setArticles] = useState([])
   const [loading, setLoading] = useState(true)
   const [savedIds, setSavedIds] = useState([])
-  const [activeTab, setActiveTab] = useState('AI news')
+  const [activeTab, setActiveTab] = useState('brewing guides')
 
-  const tabs = ['AI news', 'ben bites', 'reddit AI', 'wishlist']
+  const tabs = ['brewing guides', 'espresso tech', 'roasting profiles', 'wishlist', 'profile']
+
 
   useEffect(() => {
     // Get initial session
@@ -103,21 +109,26 @@ function App() {
     if (activeTab === 'wishlist') {
       return articles.filter(article => savedIds.includes(article.id))
     }
-    if (activeTab === 'ben bites') {
-      return articles.filter(article => article.source === "Ben's Bites")
+    if (activeTab === 'espresso tech') {
+      return articles.filter(article => article.source === "Espresso Tech")
     }
-    if (activeTab === 'reddit AI') {
-      return articles.filter(article => article.source === "Reddit")
+    if (activeTab === 'roasting profiles') {
+      return articles.filter(article => article.source === "Roasting Profiles")
     }
-    if (activeTab === 'AI news') {
-      return articles.filter(article => article.source === "The AI Rundown" || (article.source !== "Ben's Bites" && article.source !== "Reddit"))
+    if (activeTab === 'brewing guides') {
+      return articles.filter(article => article.source === "Brewing Guides" || (article.source !== "Espresso Tech" && article.source !== "Roasting Profiles"))
     }
     return articles
   }
 
   const filteredArticles = getFilteredArticles()
 
+  if (activeTab === 'profile') {
+    return <GlaidoProfilePage onBack={() => setActiveTab('brewing guides')} />;
+  }
+
   return (
+
     <>
       <div className="bg-blobs">
         <div className="blob blob-1"></div>
@@ -126,7 +137,7 @@ function App() {
         <div className="blob blob-4"></div>
       </div>
 
-      {!session && <Auth />}
+      {!session && <Auth onBypass={(mockUser) => setSession({ user: mockUser })} />}
 
       <Hero1 />
 
@@ -145,8 +156,8 @@ function App() {
         )}
 
         <header className="header">
-          <h1 className="header-logo">The Daily Newsletter</h1>
-          <p className="header-subtitle text-dim">Elite curated intelligence for the modern era</p>
+          <h1 className="header-logo">Glaido Coffee</h1>
+          <p className="header-subtitle text-dim">Elite curated intelligence for high-performance extraction</p>
         </header>
 
         <nav className="nav-tabs">
